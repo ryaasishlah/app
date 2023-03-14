@@ -4,12 +4,9 @@ import { getRandomColorName } from "./randomcol.js";
 import { rowtabel, svg, em } from "../template/tabel.js";
 get("https://gocroot-baru.herokuapp.com/hd", tabelContent);
  
-var isi = {};
-
 
 function tabelContent(result){
     userTable(result);
-    isi = result;
 }
 
 function userTable(jsonParse){

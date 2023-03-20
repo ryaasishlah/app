@@ -12,7 +12,7 @@ function tabelContent(result){
 
 function userTable(jsonParse){
     let row = '';
-    jsonParse.forEach((element, index) => {
+    jsonParse.forEach((element) => {
     let svgicon = svg.replace("#WARNA#", getRandomColorName());
     let emailcol = em.replace("#col#", getRandomColorName());
     console.log(emailcol);

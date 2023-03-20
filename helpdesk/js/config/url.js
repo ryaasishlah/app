@@ -1,0 +1,1 @@
+export let URLHelpdesk = "https://gocroot-baru.herokuapp.com/hd"

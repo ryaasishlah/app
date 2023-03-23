@@ -1,0 +1,1 @@
+export let URLPenggajian = "https://penggajian.herokuapp.com/karyawan"

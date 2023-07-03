@@ -14,12 +14,10 @@ function userTable(jsonParse){
     let row = '';
     jsonParse.forEach((element) => {
     let svgicon = svg.replace("#WARNA#", getRandomColorName());
-    let pengajar = pgr.replace("#col#", getRandomColorName());
-    console.log(pengajar);
-    row = rowtabel.replace("#nama_kursus#", element.nama_kursus).
-        replace("#jenjang_kursus#", element.jenjang_kursus).
-        replace("#pgr#", pengajar).
-        
+    let harga = hga.replace("#col#", getRandomColorName());
+    console.log(harga);
+    row = rowtabel.replace("#nama#", element.nama).
+        replace("#hga#", harga).
         replace("#SVG#", svgicon);
     addInner("demo",row);
     });

@@ -2,8 +2,8 @@ import { addInner } from "https://jscroot.github.io/element/croot.js";
 import { get } from "https://jscroot.github.io/api/croot.js"; 
 import { getRandomColorName } from "./randomcol.js";
 import {rowtabel, svg, pgr} from "../template/tabel.js";
-import { URLProyek1 } from "../config/url.js";
-get(URLProyek1, tabelContent);
+import { URLProyek2 } from "../config/url.js";
+get(URLProyek2, tabelContent);
  
 
 function tabelContent(result){

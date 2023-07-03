@@ -9,14 +9,14 @@ export let rowtabel = `<tr class="h-18 border-b border-coolGray-100">
     </div>
   </div>
 </th>
- <th class="whitespace-nowrap px-4 bg-white text-sm font-medium text-coolGray-800 text-left">#gender#</th>
+ <th class="whitespace-nowrap px-4 bg-white text-sm font-medium text-coolGray-800 text-left">#150.000#</th>
 #hga#
- <th class="whitespace-nowrap px-4 bg-white text-sm font-medium text-green-500 text-left">#nohp#</th>
+ <th class="whitespace-nowrap px-4 bg-white text-sm font-medium text-green-500 text-left">#JAMSELESAI#</th>
  <th class="whitespace-nowrap pr-4 bg-white text-sm font-medium text-coolGray-800">
 </th>
 </tr>`
 
-export let svg = `<div class="flex items-center justify-center w-10 h-10 text-base font-medium text-yellow-600 bg-#WARNA#-200 rounded-md">PS</div>`
+export let svg = `<div class="flex items-center justify-center w-10 h-10 text-base font-medium text-yellow-600 bg-#WARNA#-200 rounded-md">SL</div>`
 
 
-export let hga = `<th class="whitespace-nowrap px-4 bg-white text-sm font-medium text-#col#-500 text-center">#harga#</th>`
+export let hga = `<th class="whitespace-nowrap px-4 bg-white text-sm font-medium text-#col#-500 text-center">#JAMMULAI#</th>`

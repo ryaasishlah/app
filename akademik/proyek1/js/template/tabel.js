@@ -9,10 +9,10 @@ export let rowtabel = `<tr class="h-18 border-b border-coolGray-100">
     </div>
   </div>
 </th>
-// <th class="whitespace-nowrap px-4 bg-white text-sm font-medium text-coolGray-800 text-left">#gender#</th>
+ <th class="whitespace-nowrap px-4 bg-white text-sm font-medium text-coolGray-800 text-left">#gender#</th>
 #hga#
-// <th class="whitespace-nowrap px-4 bg-white text-sm font-medium text-green-500 text-left">#nohp#</th>
-// <th class="whitespace-nowrap pr-4 bg-white text-sm font-medium text-coolGray-800">
+ <th class="whitespace-nowrap px-4 bg-white text-sm font-medium text-green-500 text-left">#nohp#</th>
+ <th class="whitespace-nowrap pr-4 bg-white text-sm font-medium text-coolGray-800">
 </th>
 </tr>`
 
